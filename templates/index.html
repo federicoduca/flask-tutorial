@@ -1,3 +1,12 @@
 {% extends "base.html" %}
-{% block title %} Home Page {% endblock %}
-{% block content %} <h1>Test</h1> {% endblock %}
+
+{% block title %}
+Home Page
+{% endblock %}
+
+{% block content %}
+<h2>Bienvenido a la homepage!</h2>
+<form action="https://127.0.0.1:5000/login">
+    <input type="submit" value="Go to login" />
+</form>
+{% endblock %}
